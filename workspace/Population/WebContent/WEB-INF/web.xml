@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN"
+"http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+
+  <!-- Complete web.xml ordering is required -->
+  <web-app id="Population">
+
+  <display-name>Population</display-name>
+
+  <servlet>
+    <servlet-name>NoInvoker</servlet-name>
+    <jsp-file>/index.jsp</jsp-file>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>PopulationServlet2009</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2009.PopulationServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>PopulationServlet2010</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2010.PopulationServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>PopulationServlet2011</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2011.PopulationServlet</servlet-class>
+  </servlet>
+ 
+  <servlet>
+    <servlet-name>PopulationServlet2012</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2012.PopulationServlet</servlet-class>
+  </servlet>
+ 
+  <servlet>
+    <servlet-name>PopulationServlet2013</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2013.PopulationServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>PopulationServlet2014</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2014.PopulationServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>PopulationServlet2015</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2015.PopulationServlet</servlet-class>
+  </servlet>
+    
+  <servlet>
+    <servlet-name>PopulationServlet2016</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2016.PopulationServlet</servlet-class>
+  </servlet>
+    
+  <servlet>
+    <servlet-name>PopulationServlet2017</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2017.PopulationServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>PopulationServlet2018</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2018.PopulationServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>PopulationServlet2019</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2019.PopulationServlet</servlet-class>
+  </servlet>
+
+<servlet>
+    <servlet-name>PopulationServlet2020</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2020.PopulationServlet</servlet-class>
+  </servlet>
+
+<servlet>
+  <servlet-name>PopulationServlet2021</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2021.PopulationServlet</servlet-class>
+  </servlet>
+
+<servlet>
+  <servlet-name>PopulationServlet2022</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2022.PopulationServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>PopulationServlet2023</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2023.PopulationServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>PopulationServlet2024</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2024.PopulationServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>PopulationServlet2025</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.population._2025.PopulationServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>NoInvoker</servlet-name>
+    <url-pattern>/servlet/*</url-pattern>
+  </servlet-mapping> 
+ 
+  <servlet-mapping>
+    <servlet-name>PopulationServlet2009</servlet-name>
+    <url-pattern>/Population2009</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>PopulationServlet2010</servlet-name>
+    <url-pattern>/Population2010</url-pattern>
+  </servlet-mapping>  
+
+  <servlet-mapping>
+    <servlet-name>PopulationServlet2011</servlet-name>
+    <url-pattern>/Population2011</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>PopulationServlet2012</servlet-name>
+    <url-pattern>/Population2012</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>PopulationServlet2013</servlet-name>
+    <url-pattern>/Population2013</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>PopulationServlet2014</servlet-name>
+    <url-pattern>/Population2014</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>PopulationServlet2015</servlet-name>
+    <url-pattern>/Population2015</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>PopulationServlet2016</servlet-name>
+    <url-pattern>/Population2016</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>PopulationServlet2017</servlet-name>
+    <url-pattern>/Population2017</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>PopulationServlet2018</servlet-name>
+    <url-pattern>/Population2018</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>PopulationServlet2019</servlet-name>
+    <url-pattern>/Population2019</url-pattern>
+  </servlet-mapping>
+
+ <servlet-mapping>
+    <servlet-name>PopulationServlet2020</servlet-name>
+    <url-pattern>/Population2020</url-pattern>
+ </servlet-mapping>
+
+<servlet-mapping>
+    <servlet-name>PopulationServlet2021</servlet-name>
+    <url-pattern>/Population2021</url-pattern>
+ </servlet-mapping>
+
+<servlet-mapping>
+    <servlet-name>PopulationServlet2022</servlet-name>
+    <url-pattern>/Population2022</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet-mapping>
+    <servlet-name>PopulationServlet2023</servlet-name>
+    <url-pattern>/Population2023</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet-mapping>
+    <servlet-name>PopulationServlet2024</servlet-name>
+    <url-pattern>/Population2024</url-pattern>
+ </servlet-mapping>
+  
+ <servlet-mapping>
+    <servlet-name>PopulationServlet2025</servlet-name>
+    <url-pattern>/Population2025</url-pattern>
+ </servlet-mapping>
+  
+ <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>    
+  </welcome-file-list>
+
+
+  <!--
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>Population2013</web-resource-name>
+      <url-pattern>/Population2013/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>demo-user</role-name>
+    </auth-constraint>
+  </security-constraint>
+  
+  <login-config>
+    <auth-method>BASIC</auth-method>
+    <realm-name>Interactive Programs - 2015 Trustees Report</realm-name>
+  </login-config>
+  
+  <security-role>
+    <description>Demography Group</description>
+    <role-name>demo-user</role-name>
+  </security-role>
+  -->
+  
+</web-app>
