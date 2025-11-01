@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN"
+"http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+
+  <!-- Complete web.xml ordering is required -->
+  <web-app id="Annuity">
+
+  <display-name>Annuity</display-name>
+
+  <servlet>
+    <servlet-name>NoInvoker</servlet-name>
+    <jsp-file>/index.jsp</jsp-file>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>AnnuityServlet2009</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.annuity._2009.AnnuityServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>AnnuityServlet2010</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.annuity._2010.AnnuityServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>AnnuityServlet2011</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.annuity._2011.AnnuityServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>AnnuityServlet2012</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.annuity._2012.AnnuityServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>AnnuityServlet2013</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.annuity._2013.AnnuityServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>AnnuityServlet2014</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.annuity._2014.AnnuityServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>AnnuityServlet2015</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.annuity._2015.AnnuityServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>AnnuityServlet2016</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.annuity._2016.AnnuityServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>AnnuityServlet2017</servlet-name>
+    <servlet-class>gov.ssa.ocact.lr.annuity._2017.AnnuityServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AnnuityServlet2018</servlet-name>
+  	<servlet-class>gov.ssa.ocact.lr.annuity._2018.AnnuityServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AnnuityServlet2019</servlet-name>
+  	<servlet-class>gov.ssa.ocact.lr.annuity._2019.AnnuityServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AnnuityServlet2020</servlet-name>
+  	<servlet-class>gov.ssa.ocact.lr.annuity._2020.AnnuityServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AnnuityServlet2021</servlet-name>
+  	<servlet-class>gov.ssa.ocact.lr.annuity._2021.AnnuityServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AnnuityServlet2022</servlet-name>
+  	<servlet-class>gov.ssa.ocact.lr.annuity._2022.AnnuityServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AnnuityServlet2023</servlet-name>
+  	<servlet-class>gov.ssa.ocact.lr.annuity._2023.AnnuityServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AnnuityServlet2024</servlet-name>
+  	<servlet-class>gov.ssa.ocact.lr.annuity._2024.AnnuityServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AnnuityServlet2025</servlet-name>
+  	<servlet-class>gov.ssa.ocact.lr.annuity._2025.AnnuityServlet</servlet-class>
+  </servlet>
+    
+  <servlet-mapping>
+    <servlet-name>NoInvoker</servlet-name>
+    <url-pattern>/servlet/*</url-pattern>
+  </servlet-mapping> 
+
+  <servlet-mapping>
+    <servlet-name>AnnuityServlet2009</servlet-name>
+    <url-pattern>/Annuity2009</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet-mapping>
+    <servlet-name>AnnuityServlet2010</servlet-name>
+    <url-pattern>/Annuity2010</url-pattern>
+  </servlet-mapping> 
+
+  <servlet-mapping>
+    <servlet-name>AnnuityServlet2011</servlet-name>
+    <url-pattern>/Annuity2011</url-pattern>
+  </servlet-mapping> 
+
+  <servlet-mapping>
+    <servlet-name>AnnuityServlet2012</servlet-name>
+    <url-pattern>/Annuity2012</url-pattern>
+  </servlet-mapping> 
+
+  <servlet-mapping>
+    <servlet-name>AnnuityServlet2013</servlet-name>
+    <url-pattern>/Annuity2013</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AnnuityServlet2014</servlet-name>
+    <url-pattern>/Annuity2014</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AnnuityServlet2015</servlet-name>
+    <url-pattern>/Annuity2015</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AnnuityServlet2016</servlet-name>
+    <url-pattern>/Annuity2016</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AnnuityServlet2017</servlet-name>
+    <url-pattern>/Annuity2017</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AnnuityServlet2018</servlet-name>
+  	<url-pattern>/Annuity2018</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AnnuityServlet2019</servlet-name>
+  	<url-pattern>/Annuity2019</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AnnuityServlet2020</servlet-name>
+  	<url-pattern>/Annuity2020</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AnnuityServlet2021</servlet-name>
+  	<url-pattern>/Annuity2021</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AnnuityServlet2022</servlet-name>
+  	<url-pattern>/Annuity2022</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AnnuityServlet2023</servlet-name>
+  	<url-pattern>/Annuity2023</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AnnuityServlet2024</servlet-name>
+  	<url-pattern>/Annuity2024</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AnnuityServlet2025</servlet-name>
+  	<url-pattern>/Annuity2025</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>    
+  </welcome-file-list>
+
+  <!--
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>Annuity2013</web-resource-name>
+      <url-pattern>/Annuity2011/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>demo-user</role-name>
+    </auth-constraint>
+  </security-constraint>
+  
+  <login-config>
+    <auth-method>BASIC</auth-method>
+    <realm-name>Interactive Programs - 2015 Trustees Report</realm-name>
+  </login-config>
+  
+  <security-role>
+    <description>Demography Group</description>
+    <role-name>demo-user</role-name>
+  </security-role>
+  -->
+  
+</web-app>
